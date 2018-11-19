@@ -1,0 +1,13 @@
+h1{
+    font-size: 35px;
+    font-style: bold;
+    position: relative;
+    top: 10px;
+    left: 10px;
+    line-height: 1.5;
+}
+#guess{
+    line-height: 1.5;
+    position: relative;
+    left: 10px;
+}
