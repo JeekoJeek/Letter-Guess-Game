@@ -29,8 +29,9 @@ document.onkeyup = function (event) {
         "<p>wins: " + wins + "</p>" +
         "<p>losses: " + losses + "</p>" +
         "<p>Guesses left: " + guessesLeft + "</p>";
-        
+    
 
 
     document.querySelector("#guess").innerHTML = html;
+   document.querySelector("#letters-guessed").innerHTML(userGuess);
 }
